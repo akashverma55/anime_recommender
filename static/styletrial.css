@@ -1,0 +1,21 @@
+body {
+    /* Set the background image */
+    background-image: url("path/to/your/bg_image.jpg");
+    background-size: cover;  /* Resize image to cover the entire viewport */
+    background-position: center;  /* Center the image horizontally and vertically */
+    /* White transparent background for the content */
+    background-color: rgba(255, 255, 255, 0.8);  /* Adjust transparency (0 - fully transparent, 1 - fully opaque) */
+  }
+  
+  .container {
+    /* Center the content horizontally */
+    margin: 0 auto;
+    /* Adjust width as needed */
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .welcome-message {
+    text-align: center;
+  }
+  

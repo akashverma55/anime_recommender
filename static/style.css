@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f1f3f56e;
+  /* background-image: url("21591.webp"); */
+  border-radius: 10%; /* Create a circular shape */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for better visibility */
+}
+
+.inside {
+  align-items: center;
+  text-align: center;
+  background-color: #0e3047; 
+  border-radius: 10%; 
+  padding: 20px;
+  width: 600px;
+  border-width: 20px;
+  border-color: rgb(2, 38, 39);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  background-image:url("21591.webp"); 
+  background-size: cover; /* Stretch the image to cover the container */
+  height: 350px; /* Set a height for the container (adjust as needed) */
+  width: 100%; /* Set the width to 100% */
+  position: relative; /* Make the container relative for positioning the header */
+  border-radius: 1%;
+}
+
+/* styles.css */
+input[type="text"] {
+  width: 250px;
+  height: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.htext{
+  color:white
+}
+
+input[type="submit"] {
+  width: 180px;
+  height: 35px;
+  border-radius: 10%;
+  border-color: #0d5257;
+  border-width: 5px;
+  background-color: rgba(1, 177, 103, 0.582);
+  cursor: pointer;
+}
+
+
+.header {
+  position: absolute; /* Make the header absolute to position it within the container */
+  top: 50%; /* Position the top of the header at 50% */
+  left: 50%; /* Position the left of the header at 50% */
+  transform: translate(-50%, -50%); /* Center the header horizontally and vertically */
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #0d5257;
+  border-radius: 10%;
+}
+
+main {
+  padding-top: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
