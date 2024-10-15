@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Recommendations</title>
+</head>
+<body>
+    <h1>Recommended Anime</h1>
+    <ul>
+        {% for anime in recommendations %}
+            <li>{{ anime }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Go back</a>
+</body>
+</html>
